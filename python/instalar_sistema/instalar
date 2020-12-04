@@ -1,3 +1,4 @@
 # Primero activar el entorno virtual
+# Esto solo crea un enlace para trabajar como paquete
 python setup.py develop
 
