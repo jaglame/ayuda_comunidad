@@ -1,0 +1,8 @@
+INS_UPD_C5('1111', 'bbb', 'SPONSABLE',  '');
+INS_UPD_C5('2222', 'bbb', 'SPONSABLE',  '');
+INS_UPD_C5('3333', 'bbb', 'éíoú',  '');
+UPDATE C5 SET COM_ESTADO = 'BAJA_SCRIPT' WHERE COM_PROCESO_ACTUALIZACION < '';
+COMMIT;
+END;
+/
+quit 0
