@@ -1,11 +1,11 @@
 
 import sqlite3
-sqlite3.paramstyle = "named"  # Para pasar los parámetros como diccionario
+sqlite3.paramstyle = "named"  # Para pasar los parámetros como diccionario.
 
 def get_connection():
     """ """
     conn = sqlite3.connect("cliente.db")
-    conn.set_trace_callback(print)  # Para ver por pantalla los querys.
+    conn.set_trace_callback(print)  # Para ver por pantalla los queries.
     return conn
 
 def crear_tabla():
